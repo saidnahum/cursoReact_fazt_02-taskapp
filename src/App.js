@@ -2,10 +2,10 @@
 import { useState, useEffect } from "react";
 
 // Importando componentes
-import TaskRow from './components/TaskRow';
-import TaskBanner from './components/TaskBanner';
-import TaskCreator from "./components/TaskCreator";
-import VisibilityControl from './components/VisivilityControl'
+import {TaskRow} from './components/TaskRow';
+import { TaskBanner } from './components/TaskBanner';
+import { TaskCreator } from "./components/TaskCreator";
+import { VisibilityControl } from './components/VisivilityControl'
 
 function App() {
 

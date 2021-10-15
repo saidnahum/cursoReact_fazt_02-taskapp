@@ -6,7 +6,7 @@ export const VisibilityControl = (props) => {
             checked={props.isChecked}
             onChange={e => props.callback(e.target.checked)}
          />
-         <label className="ml-3">
+         <label>
             Mostrar {props.description}
          </label>
       </div>

@@ -1,6 +1,6 @@
 {
   "name": "02-taskapp1",
-  "homepage" : "https://sharp-bartik-73673a.netlify.app/02-taskapp1/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

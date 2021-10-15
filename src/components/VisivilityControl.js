@@ -1,4 +1,4 @@
-export const VisibilityControl = (props) => {
+const VisibilityControl = (props) => {
    return (
       <div>
          <input 
@@ -12,3 +12,5 @@ export const VisibilityControl = (props) => {
       </div>
    )
 }
+
+export default VisibilityControl;

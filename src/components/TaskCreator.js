@@ -1,6 +1,6 @@
 import {useState} from "react"
 
-export const TaskCreator = ({callback}) => {
+const TaskCreator = ({callback}) => {
 
    const [newTaskName, setNewTaskName] = useState('');
 
@@ -27,3 +27,5 @@ export const TaskCreator = ({callback}) => {
       </div>
    )
 }
+
+export default TaskCreator;
